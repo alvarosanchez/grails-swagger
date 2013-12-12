@@ -7,6 +7,7 @@ class UrlMappings {
             }
         }
 
+        "/api-docs/"(controller:'resourcesList')
         "/"(view:"/index")
         "500"(view:'/error')
 	}
