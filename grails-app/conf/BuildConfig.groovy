@@ -13,12 +13,15 @@ grails.project.dependency.resolution = {
 
     dependencies {
         compile 'com.wordnik:swagger-core_2.10:1.3.1'
-        test "org.spockframework:spock-grails-support:0.7-groovy-2.0"
+        test "org.spockframework:spock-grails-support:0.7-groovy-2.0", {
+            export = false
+        }
     }
 
     plugins {
         test(":spock:0.7") {
             exclude("spock-grails-support")
+            export = false
         }
         build ':release:3.0.1', ':rest-client-builder:1.0.3', {
             export = false
