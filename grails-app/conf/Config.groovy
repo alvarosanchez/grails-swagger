@@ -1,5 +1,7 @@
 // configuration for plugin testing - will not be included in the plugin zip
 
+swaggerVersion = '1.2'
+
 log4j = {
     // Example of changing the log pattern for the default console
     // appender:
