@@ -4,6 +4,8 @@ import grails.converters.JSON
 
 class ResourcesListService {
 
+    static transactional = false
+
     def grailsApplication
     def grailsUrlMappingsHolder
 
