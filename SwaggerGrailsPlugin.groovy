@@ -22,10 +22,14 @@ A Grails 2.3+ plugin to generate REST API documentation for your endpoints.
     // License: one of 'APACHE', 'GPL2', 'GPL3'
     def license = "APACHE"
 
-//    def developers = [ [ name: "Joe Bloggs", email: "joe@bloggs.net" ]]
+    def developers = [
+        [ name: "Mario Garcia", email: "TODO" ],
+        [ name: "Alonso Torres", email: "TODO" ],
+        [ name: "Giovanni", email: "TODO" ]
+    ]
 
     // Location of the plugin's issue tracker.
-//    def issueManagement = [ system: "JIRA", url: "http://jira.grails.org/browse/GPMYPLUGIN" ]
+    def issueManagement = [ system: "GitHub", url: "https://github.com/alvarosanchez/grails-swagger/issues" ]
 
     // Online location of the plugin's browseable source code.
     def scm = [ url: "https://github.com/alvarosanchez/grails-swagger" ]
