@@ -1,10 +1,8 @@
 package org.grails.plugins.swagger
 
-import spock.lang.Specification
+import grails.plugin.spock.IntegrationSpec
 
-class ResourcesListServiceIntegrationSpec extends Specification {
-
-    static transactional = false
+class ResourcesListServiceIntegrationSpec extends IntegrationSpec {
 
     def resourcesListService
     def grailsApplication
